@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('localhost', 'madelinquency');
+mongoose.connect('localhost', 'database');
 
 var schema = mongoose.Schema({
 	// Define schema here...

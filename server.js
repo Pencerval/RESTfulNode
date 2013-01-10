@@ -10,9 +10,9 @@ app.configure(function() {
 
 app.get('/models', models.findAll);
 app.get('/models/:id', models.findById);
-app.post('/models', models.addAuthority);
-app.put('/models/:id', models.updateAuthority);
-app.delete('/models/:id', models.deleteAuthority);
+app.post('/models', models.addModel);
+app.put('/models/:id', models.updateModel);
+app.delete('/models/:id', models.deleteModel);
 
 app.listen(3000);
 console.log('Listening on port 3000...');
